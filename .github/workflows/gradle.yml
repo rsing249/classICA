@@ -37,5 +37,5 @@ jobs:
         if [[ "${{ github.ref }}" == "refs/heads/master" ]]; then
           ./gradlew test
         else
-          ./gradlew test --tests "com.example.Test1"
+          ./gradlew test --tests "org.example.test1"
         fi
